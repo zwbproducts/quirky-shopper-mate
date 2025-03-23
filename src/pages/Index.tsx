@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import ProductShowcase from '../components/ProductShowcase';
 import Footer from '../components/Footer';
+import ChatBot from '../components/ChatBot';
 import { ArrowRight } from 'lucide-react';
 
 // Features section
@@ -139,6 +140,9 @@ const Index = () => {
       </main>
       
       <Footer />
+      
+      {/* Add the ChatBot component */}
+      <ChatBot />
     </div>
   );
 };
